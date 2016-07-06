@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Let's surf around internet</title>
+</head>
+<body>
+<style>
+  html {
+  height: 100%;
+}
+body {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #FEF2D8;
+}
+.background {
+  position: relative;
+  width: 600px;
+  height: 525px;
+}
+.card {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  width: 325px;
+  height: 300px;
+  border-radius: 10px;
+}
+.browser {
+  position: absolute;
+  top: 10px;
+  width: 325px;
+  height: 20px;
+  background: #444;
+  border-radius: 10px 10px 0px 0px;
+  animation: before-start 1.5s alternate ease-in-out;
+}
+.ball-1 {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  width: 5px;
+  height: 5px;
+  background: #47cf73;
+  border-radius: 10px;
+}
+.ball-2 {
+  position: absolute;
+  top: 5px;
+  left: 55px;
+  width: 5px;
+  height: 5px;
+  background: #FCD000;
+  border-radius: 10px;
+}
+.ball-3 {
+  position: absolute;
+  top: 5px;
+  left: 70px;
+  width: 5px;
+  height: 5px;
+  background: #FF3C41;
+  border-radius: 10px;
+}
+.header {
+  position: absolute;
+  top: 25px;
+  width: 325px;
+  height: 140px;
+  background: #eee;
+  animation: before-start 1s alternate ease-in-out;
+}
+.content {
+  position: absolute;
+  top: 165px;
+  width: 325px;
+  height: 135px;
+  background: #fff;
+  border-radius: 0px 0px 10px 10px;
+  animation: before-start .8s alternate ease-in-out;
+}
+.wrap {
+  position: absolute;
+  top: 85px;
+  margin: auto 50px;
+}
+.cont01 {
+  position: absolute;
+  width: 55px;
+  height: 5px;
+  background: #DDDDE0;
+}
+.cont01::after {
+  position: absolute;
+  top: -55px;
+  left: 7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #DDDDE0;
+  content:"";
+}
+.cont02 {
+  position: absolute;
+  left: 86px;
+  width: 55px;
+  height: 5px;
+  background: #DDDDE0;
+}
+.cont02::after {
+  position: absolute;
+  top: -55px;
+  left: 7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #DDDDE0;
+  content:"";
+}
+.cont03 {
+  position: absolute;
+  left: 170px;
+  width: 55px;
+  height: 5px;
+  background: #DDDDE0;
+}
+.cont03::after {
+  position: absolute;
+  top: -55px;
+  left: 7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #DDDDE0;
+  content:"";
+}
+.elem01 {
+  position: absolute;
+  top: -47px;
+  left: 7px;
+  width: 130px;
+  height: 10px;
+  background: #DDDDE0;
+}
+.elem02 {
+  position: absolute;
+  top: -30px;
+  left: 7px;
+  width: 100px;
+  height: 7px;
+  background: #DDDDE0;
+}
+.elem03 {
+  position: absolute;
+  top: -17px;
+  left: 7px;
+  width: 100px;
+  height: 7px;
+  background: #DDDDE0;
+}
+.elem04 {
+  position: absolute;
+  top: -5px;
+  left: 7px;
+  width: 100px;
+  height: 7px;
+  background: #DDDDE0;
+}
+.elem05 {
+  position: absolute;
+  top: -50px;
+  left: 155px;
+  width: 70px;
+  height: 70px;
+  background: #DDDDE0;
+  border-radius: 50%;
+}
+
+@keyframes before-start {
+  0% {transform: translateY(-50px)}
+  100% {transform: translateY(0px)}
+}
+</style>
+  <div class="background">
+  <div class="card">
+    <div class="browser">
+      <div class="ball-1"></div>
+      <div class="ball-2"></div>
+      <div class="ball-3"></div>
+    </div>
+    <div class="header">
+      <div class=wrap>
+         <div class="elem01"></div>
+         <div class="elem02"></div>
+         <div class="elem03"></div>
+         <div class="elem04"></div>
+         <div class="elem05"></div>
+      </div>
+    </div>
+    <div class="content">
+      <div class=wrap>
+         <div class="cont01"></div>
+         <div class="cont02"></div>
+         <div class="cont03"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
