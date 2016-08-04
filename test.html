@@ -5,6 +5,75 @@
     <title>client side screenshot</title>
 </head>
 <body>
+<style>
+    @import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:400,800);
+div.loading {
+    pointer-events: none;
+    user-select: none;
+    background: rgba(0,0,0,.8);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    display: none;
+    
+}
+body.loading div.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body.loading * {
+    pointer-events: none;
+    user-select: none;
+}
+body, html {
+    color: white;
+    background: black;
+    padding: 0;
+    margin: 0;
+font-family: 'Open Sans', sans-serif;   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+* {
+    box-sizing: border-box;
+}
+
+.screenshoot {
+
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 25vw;
+}
+textarea {
+    height: 40vw;
+    width: 100%;
+    font-family: 'Inconsolata', monospace ;
+    font-size: 13pt;
+    padding: 1em;
+}
+.html {
+    
+}
+.info,a {
+    color: orange;
+}
+.text {
+    color: white;
+    font-size: 46pt;
+}
+
+blockquote img {
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+</style>
     <div class="loading"><div class="text">Generating</div></div>
 <div class="item">
     <h1>HTML</h1>
@@ -232,5 +301,7 @@
     <h1>dataURL</h1>
     <p class="info">The long string below can be used as <code>src</code> in a <code>IMG</code> tag. It can also be usefull in situations where you want clientside image sent to a backend.</p>
     <textarea name="" id="" cols="30" rows="10" class="dataurl"></textarea></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="test.js"></script>
 </body>
 </html>
