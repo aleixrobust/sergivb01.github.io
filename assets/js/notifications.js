@@ -10,6 +10,7 @@ $(function() {
 toastr.options.hideMethod = 'slideUp';
 toastr.options.closeMethod = 'slideUp';
 toastr.options.timeOut = 3000;
+toastr.options.progressBar = true;
     toastr.info('Hi! Thanks for visiting');
 });
 
