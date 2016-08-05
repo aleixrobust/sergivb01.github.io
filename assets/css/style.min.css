@@ -128,7 +128,7 @@ a:focus {
     right: 10px;
     text-decoration: none;
     color: #fff;
-    background-color: #e91e63;
+    background-color: #4286f5;
     display: none;
     border-radius: 100%;
     width: 56px;
@@ -142,7 +142,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #e91e63;
+    background: rgba(66,134,245,.9);
     color: #fff;
     box-shadow: 0 3px 6px rgba(0,0,0,.2),0 3px 6px rgba(0,0,0,.28)
 }
