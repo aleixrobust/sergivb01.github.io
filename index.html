@@ -95,7 +95,8 @@
       	<div class="row">
           	<div class="col-md-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
       			<h2 class="heading">Take a look to my work!</h2>
-                  <a href="portfolio/" class="btn line-btn btn-lg">Portfolio</a>
+                  <!-- <a href="" class="btn line-btn btn-lg" onclick="toastr.alert('Actually working on!')">Portfolio</a> -->
+                  <button onclick="portfolio()" class="btn line-btn btn-lg">Click me</button>
       		</div>
           </div>
       </div>
@@ -227,6 +228,23 @@
     <script src="assets/js/jquery.min.js"></script> 
     <script src="assets/js/notifications.js"></script>
     <script src="assets/js/toastr.js"></script>
+    <script>
+    function portfolio() {
+    toastr.options.closeButton = !0,
+    toastr.options.closeMethod = "fadeOut",
+    toastr.options.closeDuration = 300,
+    toastr.options.closeEasing = "swing",
+    toastr.options.showEasing = "swing",
+    toastr.options.hideEasing = "linear",
+    toastr.options.closeEasing = "linear",
+    toastr.options.showMethod = "slideDown",
+    toastr.options.hideMethod = "slideUp",
+    toastr.options.closeMethod = "slideUp",
+    toastr.options.timeOut = 3e3,
+    toastr.options.progressBar = !0,
+    toastr.error("Currenlty working on it!")
+}
+    </script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/smooth-scroll.js"></script>
     <script src="assets/js/wow.min.js"></script>
