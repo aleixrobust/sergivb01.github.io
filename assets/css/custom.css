@@ -49,7 +49,7 @@ section {
 /*##### HERO SECTION #####*/
 .hero {
   height: 100%;
-  background: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?dpr=1&auto=compress");
+  background: url("../img/mainimg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -259,7 +259,7 @@ section {
 
 /*##### RESUME SECTION #####*/
 .resume {
-  background: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?dpr=1&auto=compress");
+  background: url("../img/mainimg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
