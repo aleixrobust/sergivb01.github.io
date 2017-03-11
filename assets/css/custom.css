@@ -172,6 +172,8 @@ section {
 .experience .content ul li .experience-content p {
   color: #1a1a1a;
   font-size: .95em;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .experience .content ul li .experience-content:before {
   content: '';
@@ -349,6 +351,10 @@ section {
 }
 .portfolio .content .projects .project .project-description {
   color: #444;
+}
+.portfolio .content .projects .project .project-description p{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*##### CONTACT SECTION #####*/
