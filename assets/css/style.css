@@ -81,7 +81,7 @@ section {
 }
 .about-myself .content h2 {
   color: #3d3d3d;
-  font-size: 3.25em;
+  font-size: 3em;
   margin-bottom: 20px;
   -webkit-transform: translateY(-50px) scale(0);
   transform: translateY(-50px) scale(0);
@@ -578,3 +578,11 @@ section {
     text-align: left;
   }
 }
+/*##### SPECIAL ATRIBUTES #####*/
+a.preview {
+  color: #2a3d6d;
+}
+a.important{
+  color: #c40b0b;
+}
+
