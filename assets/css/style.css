@@ -585,3 +585,4 @@ section {
     text-align: left;
   }
 }
+.lazybars-wrapper{position:relative}.lazybars{-ms-overflow:hidden;overflow:hidden}.lazybars::-webkit-scrollbar{width:0;height:0}.lazybar-x{position:absolute;left:0;height:4px;background:#ecf0f1;background:rgba(0,0,0,.2);border-radius:4px}.lazybar-x>.scrubber{position:absolute;top:0;height:4px;cursor:pointer;background-color:#3498db;border-radius:4px}.lazybar-y{position:absolute;top:0;width:4px;background:#ecf0f1;background:rgba(0,0,0,.2);border-radius:4px}.lazybar-y>.scrubber{position:absolute;left:0;width:4px;cursor:pointer;background-color:#3498db;border-radius:4px}ul.lazybars-x{white-space:nowrap}@media only screen and (min-device-width :1024px){.lazybars,.lazybars-x,.lazybars-y{overflow:hidden}}
