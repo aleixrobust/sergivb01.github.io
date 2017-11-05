@@ -50,7 +50,7 @@ section {
 /*##### HERO SECTION #####*/
 .hero {
   height: 100%;
-  background: url("https://sergivb01.me/assets/img/background.png");
+  background: url("https://sergivb01.me/assets/img/hacker.gif");
   background-size: cover;
   background-position: center;
 }
@@ -264,7 +264,7 @@ section {
 
 /*##### RESUME SECTION #####*/
 .resume {
-  background: url("https://sergivb01.me/assets/img/background.png");
+  background: url("https://sergivb01.me/assets/img/hacker.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
