@@ -30,7 +30,6 @@ $(window).scroll( function(){
         }
     });
 
-/*###### SKILLS SECTION ######*/
   
   var middle_of_developmentWrapper = $developmentWrapper.offset().top + $developmentWrapper.outerHeight()/2;
   
