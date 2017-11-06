@@ -7,4 +7,4 @@ This is my very own personal website where I frequently commit changes. Here you
   - Fontawesome for contact footer
   - Coffe & Magic
 
-![Hacker gif](https://sergivb01.me/assets/img/hacker.gif)
+![Hacker gif](https://github.com/sergivb01/sergivb01.github.io/blob/master/assets/img/hacker.gif)
