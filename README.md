@@ -1,2 +1,10 @@
-# sergivb01.github.io
-My very own personal website. :blush:
+# Sergi Vos  Bosch
+This is my very own personal website where I frequently commit changes. Here you may find my portofolio, my skills and a short about-me text. Here are some of the stuff I've used:
+
+  - HTML5
+  - Javascript (+few jQuery)
+  - CSS3
+  - Fontawesome for contact footer
+  - Coffe & Magic
+
+![Hacker gif](https://sergivb01.me/assets/img/hacker.gif)
