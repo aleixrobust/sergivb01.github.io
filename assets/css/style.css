@@ -94,8 +94,8 @@ section {
   transform: translateX(0px) scale(1);
 }
 .about-myself .content p {
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 18%;
+  padding-right: 18%;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -235,7 +235,7 @@ section {
 .skills .content .tools-knowledge-wrapper .knowledge-wrapper {
   position: relative;
   padding: 20px 0;
-  widht: 100%;
+  width: 100%;
   text-align: center;
 }
 .skills .content .tools-knowledge-wrapper .tools-wrapper .title,
