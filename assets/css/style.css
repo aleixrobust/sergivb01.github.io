@@ -184,6 +184,10 @@ section {
   width: 35px;
   height: 5px;
 }
+.experience .content .experience-content p span {
+  color: #c0392b;
+  font-weight: bold;
+}
 
 /*##### SKILLS SECTION #####*/
 .skills {
